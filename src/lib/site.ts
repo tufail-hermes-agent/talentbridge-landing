@@ -1,27 +1,25 @@
-export const SITE_URL = "https://talentbridge.vercel.app";
+export const SITE_URL = "https://gymflow.in";
 
 export const siteConfig = {
-  name: "TalentBridge",
-  shortName: "TalentBridge",
-  legalName: "TalentBridge Solutions",
+  name: "GymFlow",
+  shortName: "GymFlow",
+  legalName: "GymFlow",
   url: SITE_URL,
-  locale: "en_US",
-  tagline: "Connecting Talent, Building Careers",
+  locale: "en_IN",
+  tagline: "Smart Gym Management for Indian Gym Owners",
   description:
-    "TalentBridge is a leading recruitment and placement agency connecting top talent with great companies. We nurture talent, fuel growth, and shape futures one placement at a time.",
-  email: "hello@talentbridge.com",
-  phones: ["+1 (555) 123-4567"],
+    "QR check-in, absentee alerts, renewal tracking, and member management — everything your front desk needs, nothing it doesn't. Built for Indian gyms.",
+  email: "support@gymflow.in",
+  phones: ["+91 9019859543"],
   address: {
-    street: "123 Business Avenue",
-    locality: "San Francisco",
-    region: "CA",
-    postalCode: "94102",
-    country: "US",
+    street: "",
+    locality: "Belagavi",
+    region: "Karnataka",
+    postalCode: "590001",
+    country: "India",
   },
   socials: [
-    "https://www.linkedin.com",
-    "https://www.twitter.com",
-    "https://www.facebook.com",
+    "https://instagram.com/gymflow.in",
   ],
 } as const;
 

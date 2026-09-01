@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   authors: [{ name: siteConfig.name, url: SITE_URL }],
   creator: siteConfig.name,
   publisher: siteConfig.name,
-  category: "Recruitment & Staffing",
+  category: "Fitness & Gym Management",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
